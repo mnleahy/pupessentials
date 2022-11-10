@@ -1,0 +1,36 @@
+.navbar-toggler, .navbar-toggler-icon {
+    background-color:#333;
+    margin: auto;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-link {
+    font-size:20px;
+}
+
+.px-3.py-2 {
+    background-color: #d87e9c;
+}
+
+.foocol {
+    background-color: #c84771;
+}
+
+.sercol {
+	background-color: #dddddd;
+}
+
+.gradient-1 {
+    background-image: linear-gradient(#d0d0d0, white);
+    background-color: #d0d0d0;
+    height: 100%;
+}
+
+.gradient-2 {
+    background-image: linear-gradient(white,#d0d0d0);
+    background-color: white;
+    height: 100%;
+}
