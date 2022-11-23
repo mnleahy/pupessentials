@@ -12,24 +12,29 @@ body{
 	display:flex;
 	margin:80px;
 	height:800px;
+	width:80%;
 	align-items:center;
-	/*margin:0 auto;*/
+	justify-content:space-between;
 }
 .second{
 	display:flex;
 	height:800px;
+	width:80%;
 	margin-left:80px;
 	margin-right:80px;
 	margin-bottom:80px;
 	align-items:center;
+	/*margin:0 auto;*/
 }
 .third{
 	display:flex;
 	height:800px;
+	width:80%;
 	margin-left:80px;
 	margin-right:80px;
 	margin-bottom:80px;
 	align-items:center;
+	justify-content:space-between;
 }
 .fourth{
 	display:flex;
@@ -41,29 +46,25 @@ body{
 	justify-content:space-between;
 }
 .mission{
-	float:right;
+	width:30%;
 	margin:20px;
 	text-align:justify;
 }
 .twoPuppies{
-	order:2;
 	border:100px solid #DDDDDD;
 }
 .dogAndOwner{
-	float:left;
 	border:100px solid #DDDDDD;
 }
 .timeline{
-	float:left;
-	width:100%;
-	margin:20px;
+	width:30%;
 	text-align:justify;
+	margin:20px;
 }
 .team{
-	float:right;
-	width:88%;
-	margin:20px;
+	width:30%;
 	text-align:justify;
+	margin:20px;
 }
 .missionpic,.twoPuppies,.dogAndOwner{
 	height:800px;
@@ -79,7 +80,7 @@ body{
 }
 .TestimonialRight{
 	width:30%;
-	text-align:center;
+	text-align:justify;
 	color:#c84771;
 }
 .contactUs{
