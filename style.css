@@ -97,7 +97,6 @@ body{
 
 
 /* CSS by Noelle Leahy */
-
 .navbar-toggler, .navbar-toggler-icon {
     background-color:#333;
     margin: auto;
@@ -111,11 +110,11 @@ body{
     font-size:20px;
 }
 
-.px-3.py-2 {
+.lpink {
     background-color: #d87e9c;
 }
 
-.foocol {
+.dpink {
     background-color: #c84771;
 }
 
