@@ -37,13 +37,6 @@ headertemplate.innerHTML=`
                 </div>
             </nav>
         </div>
-        <div class="row text-center sercol py-2">
-          <div class="container-fluid">
-            <a href="/services.html#doggy-daycare/" class="col-4 col-sm-4 text-decoration-none text-dark ms-4 me-4">Doggy Daycare</a> 
-            <a href="/services.html#dog-grooming/" class="col-4 col-sm-4 text-decoration-none text-dark ms-4 me-4">Dog Grooming</a>
-            <a href="/services.html#boarding-kennels/" class="col-4 col-sm-4 text-decoration-none text-dark ms-4 me-4">Boarding Kennels</a>
-          </div>
-        </div>
     </div>
      
 `
