@@ -1,102 +1,9 @@
-/* CSS by Clodagh Byrne */
-
-.btn-primary{
-	background-color:#C84771;
-	border-color:#C84771;
-	text-align: center;
-}
-.btn-primary:hover{
-  background-color: #D87E9C;
-  border-color:##D87E9C;
-  color: white;
+h1, h2 {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-
-
-
-/* CSS by Finola Moloney */
-
-body{
-	font-family:Helvetica;
-	color:black;
-}
-.first{
-	margin:80px;
-	width:90%;
-	height:200px;
-	display:flex;
-}
-.second{
-	margin-left:80px;
-	margin-right:80px;
-	width:90%;
-	height:200px;
-	display:flex;
-	margin-bottom:80px;
-	container:fluid;
-}
-.third{
-	margin-left:80px;
-	margin-right:80px;
-	width:90%;
-	height:200px;
-	display:flex;
-	margin-bottom:80px;
-}
-.fourth{
-	margin-left:80px;
-	margin-right:80px;
-	display:flex;
-	justify-content:space-between;
-	width:80%;
-	height:400px;
-	margin-bottom:80px;
-}
-.mission{
-	float:right;
-	width:88%;
-	background-color:#DDDDDD;
-}
-.missionpic{
-	float:left;
-}
-.dalmatian{
-	order:2;
-}
-.missionpic2{
-	float:left;
-}
-.timeline{
-	float:left;
-	width:88%;
-}
-.team{
-	float:right;
-	width:88%;
-	background-color:#DDDDDD;;
-}
-.missionpic,.dalmatian,.missionpic2{
-	height:200px;
-	width:200px;
-}
-.TestimonialLeft{
-	background-image:url(images/background.jpg);
-	background-size:contain;
-	opacity:0.6;
-	width:30%;
-}
-/.TestimonialRight{
-	width:30%;
-}
-.contactUs{
-	width:30%;
-}
-
-
-
-
-
-/* CSS by Noelle Leahy */
 .navbar-toggler, .navbar-toggler-icon {
     background-color:#333;
     margin: auto;
@@ -122,14 +29,50 @@ body{
 	background-color: #dddddd;
 }
 
-.gradient-1 {
+.gradient-1, .gradient-2 {
     background-image: linear-gradient(#d0d0d0, white);
     background-color: #d0d0d0;
     height: 100%;
+    text-align: center;
 }
 
-.gradient-2 {
+.gradient-3 {
     background-image: linear-gradient(white,#d0d0d0);
     background-color: white;
-    height: 100%;
+}
+
+.pnkbtn {
+    background-color: #C84771;
+    text-align: center;
+    width: 70%;
+    padding: 15px;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    margin: 20px 0;
+}
+
+.maxwth {
+    max-width: 100%;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 30px 0;
+}
+
+.margin90 {
+    width: 90%;
+    margin: auto;
+}
+
+.justify {
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .gradient-2 {
+        background-image: linear-gradient(white,#d0d0d0);
+        background-color: white;
+    }
 }
