@@ -1,0 +1,70 @@
+/* CSS by Clodagh Byrne */
+
+.btn-primary{
+	background-color:#C84771;
+	border-color:#C84771;
+	text-align: center;
+}
+.btn-primary:hover{
+  background-color: #D87E9C;
+  border-color:#C84771;
+  color: white;
+}
+
+.row1{
+	
+	margin:20px;
+	width:;
+	display:flex;
+	background-color: #D87E9C;
+	border-color:#C84771;
+
+}
+
+.row2{
+	margin:20px;
+	width: ;
+	display:flex;
+	text-align: center;
+	background-color: #D87E9C;
+	border-color:#C84771;
+
+}
+.container{
+	margin:20px;
+}
+.container1{
+	margin:20px;
+}
+.container2{
+	margin:20px;
+}
+
+/*Required for header*/
+.nav-link {
+    font-size:20px;
+}
+
+.lpink {
+    background-color: #d87e9c;
+}
+
+.dpink {
+    background-color: #c84771;
+}
+
+.sercol {
+	background-color: #dddddd;
+}
+.gradient-1 {
+    background-image: linear-gradient(#d0d0d0, white);
+    background-color: #d0d0d0;
+    height: 100%;
+}
+
+.gradient-2 {
+    background-image: linear-gradient(white,#d0d0d0);
+    background-color: white;
+    height: 100%;
+}
+
