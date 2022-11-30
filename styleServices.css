@@ -11,22 +11,62 @@
   color: white;
 }
 .row1{
+	
 	margin:80px;
 	width:90%;
-	height:200px;
+
 	display:flex;
+	container:fluid;
 }
 .row2{
 	margin:80px;
 	width:90%;
-	height:200px;
+	
 	display:flex;
 }
 .row3{
 	margin:80px;
 	width:90%;
-	height:200px;
+
 	display:flex;
+}
+.maxwth {
+    max-width: 100%;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 30px 0;
+}
+
+.margin90 {
+    width: 90%;
+    margin: auto;
+}
+
+.justify {
+    text-align: justify;
+}
+.border-dpink{
+	border-color:#c84771;
+}
+
+.daycarePic{
+	margin-left:80px;
+	margin-right:80px;	
+	float:left;
+	width:25%;
+}
+.washPic{
+	margin-left:80px;
+	margin-right:80px;	
+	float:right;
+	width:25%;
+}
+.bedPic{
+	margin-left:80px;
+	margin-right:80px;	
+	float:left;
+	width:25%;
 }
 
 /*Required for header*/
@@ -40,6 +80,7 @@
 
 .dpink {
     background-color: #c84771;
+	color: #c84771;
 }
 
 .sercol {
@@ -57,97 +98,31 @@
     height: 100%;
 }
 
-
-/*  
-
-body{
-	font-family:Helvetica;
-	color:black;
+.text-dpink{
+	color: #c84771;
 }
 
-.second{
-	margin-left:80px;
-	margin-right:80px;
-	width:90%;
-	height:200px;
-	display:flex;
-	margin-bottom:80px;
-	container:fluid;
-}
-.third{
-	margin-left:80px;
-	margin-right:80px;
-	width:90%;
-	height:200px;
-	display:flex;
-	margin-bottom:80px;
-}
-.fourth{
-	margin-left:80px;
-	margin-right:80px;
-	display:flex;
-	justify-content:space-between;
-	width:80%;
-	height:400px;
-	margin-bottom:80px;
-}
-.mission{
-	float:right;
-	width:88%;
-	background-color:#DDDDDD;
-}
-.missionpic{
-	float:left;
-}
-.dalmatian{
-	order:2;
-}
-.missionpic2{
-	float:left;
-}
-.timeline{
-	float:left;
-	width:88%;
-}
-.team{
-	float:right;
-	width:88%;
-	background-color:#DDDDDD;;
-}
-.missionpic,.dalmatian,.missionpic2{
-	height:200px;
-	width:200px;
-}
-.TestimonialLeft{
-	background-image:url(images/background.jpg);
-	background-size:contain;
-	opacity:0.6;
-	width:30%;
-}
-/.TestimonialRight{
-	width:30%;
-}
-.contactUs{
-	width:30%;
+.service-item a i {
+    position: relative;
+    padding-left: 20px;
+    transition: .3s;
 }
 
-
-
-
-
-
-.navbar-toggler, .navbar-toggler-icon {
-    background-color:#333;
-    margin: auto;
+.service-item a:hover i {
+    padding-left: 50px;
 }
 
-.navbar-nav {
-    align-items: center;
+.service-item a i::after {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 50%;
+    left: 10px;
+    margin-top: -1px;
+
+    transition: .3s;
 }
 
-
-
-
-
-
-*/
+.service-item a:hover i::after {
+    width: 50px;
+}
