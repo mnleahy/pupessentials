@@ -6,7 +6,7 @@ body{
 .first,.second,.third{
 	display:flex;
 	width:90%;
-	margin:auto;
+	margin:20px;
 	align-items:center;
 	justify-content:space-between;
 }
@@ -18,7 +18,7 @@ h1{
 	display:flex;
 	height:600px;
 	width:90%;
-	margin:auto;
+	margin:20px;
 	justify-content:space-between;
 	text-align:justify;
 }
