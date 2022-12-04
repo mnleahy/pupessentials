@@ -3,22 +3,20 @@ h1{
 	color:#7F7F7F;
 }
 .first,.second,.third{	
-	margin:20px;
+	margin:auto;
+	margin-bottom:40px;
 	align-items:center;
-	justify-content:space-between;
 	text-align:justify;
+	width:90%;
 }
 #testimonial{
-	margin:20px;
+	margin:auto;
 	justify-content:space-between;
 	text-align:justify;
+	width:90%;
 }
 .dash{
 	text-align:center;
-}
-.fmHeadshot{
-	height:200px;
-	width:200px;
 }
 .TestimonialLeft,.contactUs{
 	background:rgba(216,126,156,0.2);
