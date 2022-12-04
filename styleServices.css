@@ -1,11 +1,5 @@
 /* CSS by Clodagh Byrne */
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
 .btn-primary{
 	background-color:#C84771;
 	border-color:#C84771;
