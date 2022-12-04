@@ -1,11 +1,6 @@
 /* CSS by Clodagh Byrne */
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
+
 .btn-primary{
 	background-color:#C84771;
 	border-color:#C84771;
@@ -58,14 +53,7 @@
 	margin:20px;
 	border-color:#D87E9C;
 }
-a:hover{
-	color:black;
-	text-decoration:underline;
-}
-a:active{
-	color:pink;
-	text-decoration:underline;
-}
+
 /*Required for header*/
 .nav-link {
     font-size:20px;
@@ -88,4 +76,11 @@ a:active{
 .text-dpink{
 	color: #c84771;
 }
-
+a:hover{
+	color:black;
+	text-decoration:underline;
+}
+a:active{
+	color:pink;
+	text-decoration:underline;
+}
