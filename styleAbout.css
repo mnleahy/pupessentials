@@ -1,12 +1,12 @@
+/*CSS bu Finola Moloney*/
 body{
 	font-family:Helvetica;
 	color:black;
 }
 .first,.second,.third{
 	display:flex;
-	height:800px;
-	width:80%;
-	margin:80px;
+	width:90%;
+	margin:auto;
 	align-items:center;
 	justify-content:space-between;
 }
@@ -17,8 +17,8 @@ h1{
 .fourth{
 	display:flex;
 	height:600px;
-	width:80%;
-	margin:80px;
+	width:90%;
+	margin:auto;
 	justify-content:space-between;
 	text-align:justify;
 }
@@ -54,4 +54,26 @@ a{
 	display:block;
 	font:100%;
 	padding:15px;
+}
+/*Required for header*/
+.nav-link {
+    font-size:20px;
+}
+.lpink {
+    background-color: #d87e9c;
+}
+.dpink {
+    background-color: #c84771;
+	color: #c84771;
+}
+.sercol {
+	background-color: #dddddd;
+}
+.gradient-1 {
+    background-image: linear-gradient(#d0d0d0, white);
+    background-color: #d0d0d0;
+    height: 100%;
+}
+.text-dpink{
+	color: #c84771;
 }
