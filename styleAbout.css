@@ -18,6 +18,20 @@ h1{
 .dash{
 	text-align:center;
 }
+.headshot{
+	margin:20px;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+}
+.LinkedInLogo{
+	height:40px;
+	width:40px;
+}
+.fmHeadshot{
+	height:200px;
+	width:200px;
+}
 .TestimonialLeft,.contactUs{
 	background:rgba(216,126,156,0.2);
 }
