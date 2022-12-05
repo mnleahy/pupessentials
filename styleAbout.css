@@ -6,6 +6,7 @@ h3{
 	margin:auto;
 	margin-bottom:40px;
 	align-items:center;
+	justify-content:center;
 	text-align:justify;
 	width:90%;
 }
@@ -33,12 +34,12 @@ h3{
 	width:200px;
 }
 .missionpic{
-	height:503px;
-	width:960px;	
+	height:393px;
+	width:750px;	
 }
 .dogAndOwner,.twoPuppies{
-	height:640px;
-	width:960px;	
+	height:500px;
+	width:750px;	
 }
 .TestimonialLeft,.contactUs{
 	background:rgba(216,126,156,0.2);
@@ -57,6 +58,7 @@ a:link{color:black;text-decoration:none;}
 a:visited{color:black;text-decoration:none;}
 a:hover{color:black;text-decoration:underline;}
 a:active{color:pink;text-decoration:underline;}
+
 /*Required for header, CSS by Clodagh Byrne*/
 .nav-link {
     font-size:20px;
