@@ -4,6 +4,25 @@ h1, h2 {
     padding-bottom: 20px;
 }
 
+h2fnt {
+	font-size: 26px!important;
+}
+
+.btn-primary{ 
+	background-color:#C84771; 
+	border-color:#C84771; 
+	color: white; 
+	text-align: center; 
+	font-weight:bold; 
+} 
+
+.btn-primary:hover{ 
+	background-color: #D87E9C; 
+  	border-color:#C84771; 
+  	color: white; 
+  	text-decoration:bold; 
+} 
+
 .navbar-toggler, .navbar-toggler-icon {
     background-color:#333;
     margin: auto;
@@ -39,17 +58,6 @@ h1, h2 {
 .gradient-3 {
     background-image: linear-gradient(white,#d0d0d0);
     background-color: white;
-}
-
-.pnkbtn {
-    background-color: #C84771;
-    text-align: center;
-    width: 70%;
-    padding: 15px;
-    color: white;
-    border-radius: 14px;
-    border: none;
-    margin: 20px 0;
 }
 
 .maxwth {
