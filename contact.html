@@ -37,26 +37,27 @@
 <!--contact form-->
 				<div class="row card row2">
 					<div class="card-block">
-						<div class="border1">
-						<h3 class="text-uppercase">Contact form</h3>
-							<form action="" class="reveal-content">
-								<div class="form-group">
-									<input type="email" class="form-control" id="email" placeholder="Email">
-								</div>
-								</br>
-								<div class="form-group">
-									<input type="text" class="form-control" id="subject" placeholder="Subject">
-								</div>
-								</br>
-								<div class="form-group">
-									<textarea class="form-control" rows="5" placeholder="Enter your message"></textarea>
-								</div>
-								</br>
-								<div class="form-group">
-									<button type="submit" class=" btn btn-primary">Send message</button>
-								</div>
-							</form>
+						<div class="border1" id="hideform">
+							<h3 class="text-uppercase">Contact form</h3>
+								<form action="" class="reveal-content" onsubmit="return false">
+									<div class="form-group">
+										<input type="text" class="form-control" id="myName" placeholder="Name">
+									</div>
+									</br>
+									<div class="form-group">
+										<input type="email" class="form-control" id="myEmail" placeholder="Email">
+									</div>
+									</br>
+									<div class="form-group">
+										<textarea class="form-control" rows="5" placeholder="Enter your message"></textarea>
+									</div>
+									</br>
+									<div class="form-group">
+										<button type="submit" class=" btn btn-primary" onclick="alter()">Send message</button>
+									</div>
+								</form>
 						</div>
+						<span id="name"></span><span id="email"></span>
 					</div>
 				</div>
 			</div>
@@ -64,5 +65,6 @@
 	</div>
   <script src='footer.js'></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-  </body>  
+  <script src="contact.js" defer></script>
+</body>  
 </html>
