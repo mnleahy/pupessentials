@@ -54,6 +54,14 @@
 	border-color:#D87E9C;
 }
 
+a:hover{
+	color:black;
+	text-decoration:underline;
+}
+a:active{
+	color:pink;
+	text-decoration:underline;
+}
 /*Required for header*/
 .nav-link {
     font-size:20px;
@@ -76,11 +84,8 @@
 .text-dpink{
 	color: #c84771;
 }
-a:hover{
-	color:black;
-	text-decoration:underline;
-}
-a:active{
-	color:pink;
-	text-decoration:underline;
+
+.navbar-toggler, .navbar-toggler-icon {
+	background-color: #333;    
+	margin: auto;
 }
