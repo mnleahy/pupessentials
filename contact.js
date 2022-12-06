@@ -1,17 +1,17 @@
 /* JS by Clodagh Byrne*/
-document.addEventListener("submit", function (e) {
-  e.preventDefault(); 
-  handleSubmit();// Call the function handleSubmit to hide the form and show the message
-});
 
-function handleSubmit(event) {
-  // Variables
-  const at = document.getElementById("email").value.indexOf("@");
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const form = document.getElementById("contactForm");
-  const containerDiv = document.getElementById("container");
-  let submitOK = "true";  // 'let' because its value can change
+function alter() {
+	// variables and response message
+  var x = document.getElementById("myName").value;
+	document.getElementById("name").innerHTML = x+", thank you for your details. We will be in touch via ";
+	var x = document.getElementById("myEmail").value;
+	document.getElementById("email").innerHTML = x+" shortly.";
+	hide();
+}
+	// hide the form after submission
+  function hide() {
+  document.getElementById("hideform").style.display="none";
+  }
 
   // Check char limit
   if (fname.length > 50) {
@@ -29,14 +29,3 @@ function handleSubmit(event) {
   if (submitOK === "false") {
       return false;
   }
-
-  // Create new paragraph element and text node
-  const newParagraph = document.createElement("p");
-  const newContent = document.createTextNode(fname + ", thank you for your details. We will be in touch via " + email + " shortly.");
- 
-  newParagraph.appendChild(newContent);// Put text node into paragraph element
-   containerDiv.appendChild(newParagraph);// Add paragraph to container div
-
-  // Hide the form
-  form.style.display = "none";
-}
