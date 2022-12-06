@@ -70,8 +70,7 @@ hr.solid {
 }
 
 .margin90 {
-    width: 90%;
-    margin: auto;
+    padding: 5%;
 }
 
 .justify {
