@@ -48,14 +48,14 @@ h1, h2 {
 	background-color: #dddddd;
 }
 
-.gradient-1, .gradient-2, .gradient-3, .gradient-4 {
+.gradient-1, .gradient-2, .gradient-3, .gradient-4, .gradient-7 {
     background-image: linear-gradient(#d0d0d0, white);
     background-color: #d0d0d0;
     height: 100%;
     text-align: center;
 }
 
-.gradient-5 {
+.gradient-5, .gradient-6 {
     background-image: linear-gradient(white,#d0d0d0);
     background-color: white;
 }
@@ -78,8 +78,12 @@ hr.solid {
 }
 
 @media screen and (max-width: 991px) {
-    .gradient-3, .gradient-4 {
+    .gradient-3, .gradient-4, .gradient-7 {
         background-image: linear-gradient(white,#d0d0d0);
+        background-color: white;
+    }
+    .gradient-6 {
+      	background-image: linear-gradient(#d0d0d0, white);
         background-color: white;
     }
 }
