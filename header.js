@@ -6,7 +6,7 @@ headertemplate.innerHTML=`
             <div class="container"> 
             <div class="d-flex flex-wrap align-items-center justify-content-center">
                 <a class="navbar-brand" href="index.html">
-                <img class="img-fluid" src="images/pup-essentials-logo.jpg" width="150" height="150" alt="Pup Essentials Logo">
+                <img class="img-fluid" src="images/PUP-ESSENTIALS-LOGO.jpg" width="150" height="150" alt="Pup Essentials Logo">
                 </a>
             </div>
             </div>
