@@ -48,7 +48,7 @@ h2fnt {
 	background-color: #dddddd;
 }
 
-.gradient-1, .gradient-2 {
+.gradient-1, .gradient-2, .gradient-3, .gradient-4 {
     background-image: linear-gradient(#d0d0d0, white);
     background-color: #d0d0d0;
     height: 100%;
@@ -78,9 +78,20 @@ hr.solid {
     text-align: justify;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
+    .gradient-3, .gradient-4 {
+        background-image: linear-gradient(white,#d0d0d0);
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .gradient-2 {
         background-image: linear-gradient(white,#d0d0d0);
         background-color: white;
+    }
+    .gradient-3 {
+	background-image: linear-gradient(#d0d0d0, white);
+    	background-color: #d0d0d0;
     }
 }
