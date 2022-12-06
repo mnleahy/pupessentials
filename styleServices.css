@@ -19,7 +19,6 @@
 }
 .row1{
 	margin:20px;
-	border:10px;
 	width:90%;
 	text-align:left;
 	display:flex;
@@ -77,6 +76,7 @@ hr.solid {
 }
 .daycarePic{
 	margin:20px;
+	padding:2px;
 	float:left;
 	width: 100%;
 	height: 18vw;
@@ -84,6 +84,7 @@ hr.solid {
 }
 .washPic{
 	margin:20px;
+	padding:2px;
 	float:right;
 	width: 100%;
 	height: 18vw;
@@ -91,6 +92,7 @@ hr.solid {
 }
 .bedPic{
 	margin:20px;
+	padding:2px;
 	float:left;
 	width: 100%;
 	height: 18vw;
@@ -98,6 +100,7 @@ hr.solid {
 }
 .trainingPic{
 	margin:20px;
+	padding:2px;
 	float:right;
 	width: 100%;
 	height: 18vw;
@@ -154,3 +157,8 @@ a:active{
 .text-dpink{
 	color: #c84771;
 }
+.navbar-toggler, .navbar-toggler-icon {
+	background-color: #333;    
+	margin: auto;
+}
+
