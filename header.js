@@ -1,6 +1,6 @@
 const headertemplate = document.createElement('template')
 headertemplate.innerHTML=`
-      <div id="header" >
+      <div id="header" class="row">
         <!--logo header-->
         <div class="px-3 py-2 dpink">
             <div class="container"> 
@@ -12,7 +12,7 @@ headertemplate.innerHTML=`
             </div>
         </div>
         <!--Navigation bar-->
-        <div class="row">   
+        <div>   
             <nav class="navbar navbar-expand-sm navbar-dark lpink">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
