@@ -8,6 +8,16 @@ h1, h2 {
 	font-size: 26px!important;
 }
 
+a:hover{ 
+	color:black; 
+	text-decoration:underline;
+} 
+
+a:active{ 
+	color:pink; 
+	text-decoration:underline; 
+} 
+
 .btn-primary{ 
 	background-color:#C84771; 
 	border-color:#C84771; 
