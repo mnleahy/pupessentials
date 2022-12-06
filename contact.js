@@ -24,8 +24,3 @@ function alter() {
       alert("Not a valid email address!");
       submitOK = "false";
   }
-
-  // Handle invalid submission
-  if (submitOK === "false") {
-      return false;
-  }
