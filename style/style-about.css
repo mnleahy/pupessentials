@@ -58,7 +58,7 @@ a:active{color:pink;text-decoration:underline;}
 }
 .nav-link {
     font-size:20px;
-	font-weight:600px;
+	font-weight:600;
 }
 .lpink {
     background-color: #d87e9c;
