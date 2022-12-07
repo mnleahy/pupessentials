@@ -26,6 +26,7 @@ a:active{
 	color: white; 
 	text-align: center; 
 	font-weight:bold; 
+	width: 80%;
 } 
 
 .btn-primary:hover{ 
