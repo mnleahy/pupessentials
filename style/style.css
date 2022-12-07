@@ -76,6 +76,8 @@ a:active{
 
 .maxwth {
     max-width: 100%;
+    margin: auto;
+    display: flex;
 }
 
 hr.solid {
