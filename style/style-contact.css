@@ -4,8 +4,8 @@
 .btn-primary{
 	background-color:#C84771;
 	border-color:#C84771;
-	color: white;
-	text-align: center;
+	color:white;
+	text-align:center;
 	font-weight:bold;
 }
 .btn-primary:hover{
@@ -18,7 +18,6 @@
 	margin:20px;
 	border-color:#D87E9C;
 }
-
 .row1{
 	margin:20px;
 	border:10px;
@@ -27,10 +26,9 @@
 	display:flex;
 	container:fluid;
 	background-color:#D87E9C;
-	background-image: linear-gradient(#D87E9C, white);
-    height: 100%;
+	background-image:linear-gradient(#D87E9C, white);
+  	height: 100%;
 }
-
 .row2{
 	margin:20px;
 	width:90%;
@@ -53,7 +51,6 @@
 	margin:20px;
 	border-color:#D87E9C;
 }
-
 a:hover{
 	color:black;
 	text-decoration:underline;
@@ -67,29 +64,28 @@ a:active{
     font-size:20px;
 }
 .lpink {
-    background-color: #d87e9c;
+    background-color:#d87e9c;
 }
 .dpink {
-    background-color: #c84771;
-	color: #c84771;
+    background-color:#c84771;
+	color:#c84771;
 }
 .sercol {
-	background-color: #dddddd;
+	background-color:#dddddd;
 }
 .gradient-1 {
     background-image: linear-gradient(#d0d0d0, white);
-    background-color: #d0d0d0;
-    height: 100%;
+    background-color:#d0d0d0;
+    height:100%;
 }
 .text-dpink{
-	color: #c84771;
+	color:#c84771;
 }
-
 .navbar-toggler, .navbar-toggler-icon {
-	background-color: #333;    
-	margin: auto;
+	background-color:#333;    
+	margin:auto;
 }
 .nav-link {
     font-size:20px;
-    font-weight: 600;
+    font-weight:600;
 }
