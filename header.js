@@ -1,3 +1,5 @@
+// Javascript by Noelle Leahy
+
 const headertemplate = document.createElement('template')
 headertemplate.innerHTML=`
       <div id="header" class="row">
