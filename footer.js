@@ -1,3 +1,4 @@
+// Javascript by Noelle Leahy
 const footertemplate = document.createElement('template')
 footertemplate.innerHTML=`
 <div class="ps-5 pe-5 dpink">
