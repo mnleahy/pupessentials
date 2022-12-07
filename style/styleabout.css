@@ -1,0 +1,80 @@
+/*CSS by Finola Moloney*/
+
+h3{
+	color:#7F7F7F;;
+}
+.first,.second,.third{	
+	margin:auto;
+	margin-bottom:40px;
+	align-items:center;
+	justify-content:center;
+	text-align:justify;
+	width:90%;
+}
+#testimonial{
+	margin:auto;
+	justify-content:space-between;
+	text-align:justify;
+	width:90%;
+}
+.dash{
+	text-align:center;
+}
+.headshot{
+	margin:20px;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+}
+.LinkedInLogo{
+	height:40px;
+	width:40px;
+}
+.HeadshotImage{
+	height:177px;
+	width:200px;
+}
+.TestimonialLeft,.contactUs{
+	background:rgba(216,126,156,0.2);
+}
+.TestimonialRight{
+	color:#c84771;
+	border-left:20px solid white;
+	border-right:20px solid white;
+}
+.ribbon{
+	background:#DDDDDD;
+	color:black;
+
+}
+a:link{color:black;text-decoration:none;}
+a:visited{color:black;text-decoration:none;}
+a:hover{color:black;text-decoration:underline;}
+a:active{color:pink;text-decoration:underline;}
+
+/*Required for header, CSS by Clodagh Byrne/Noelle Leahy*/
+.navbar-toggler, .navbar-toggler-icon {
+    background-color: #333;
+    margin: auto;
+}
+.nav-link {
+    font-size:20px;
+}
+.lpink {
+    background-color: #d87e9c;
+}
+.dpink {
+    background-color: #c84771;
+	color: #c84771;
+}
+.sercol {
+	background-color: #dddddd;
+}
+.gradient-1 {
+    background-image: linear-gradient(#d0d0d0, white);
+    background-color: #d0d0d0;
+    height: 100%;
+}
+.text-dpink{
+	color: #c84771;
+}
