@@ -1,6 +1,4 @@
 /* CSS by Clodagh Byrne */
-
-
 .btn-primary{
 	background-color:#C84771;
 	border-color:#C84771;
@@ -9,9 +7,9 @@
 	font-weight:bold;
 }
 .btn-primary:hover{
-  background-color: #D87E9C;
+  background-color:#D87E9C;
   border-color:#C84771;
-  color: white;
+  color:white;
   text-decoration:bold;
 }
 .border1{
@@ -37,7 +35,7 @@
 	container:fluid;
 	background-color:#D87E9C;
 	background-image: linear-gradient(white, #D87E9C);
-    height: 100%;
+    	height: 100%;
 }
 .container{
 	margin:20px;
