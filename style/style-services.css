@@ -1,0 +1,163 @@
+/* CSS by Clodagh Byrne */
+
+.btn-primary{
+	background-color:#C84771;
+	border-color:#C84771;
+	color: white;
+	text-align: center;
+	font-weight:bold;
+}
+.btn-primary:hover{
+  background-color: #D87E9C;
+  border-color:#C84771;
+  color: white;
+  text-decoration:bold;
+}
+.border1{
+	margin:20px;
+	border-color:#D87E9C;
+}
+.row1{
+	margin:20px;
+	width:90%;
+	text-align:left;
+	display:flex;
+	container:fluid;
+	background-color:#D87E9C;
+	background-image: linear-gradient(#D87E9C, white);
+    height: 100%;
+}
+.row2{
+	margin:20px;
+	width:90%;
+	text-align:right;
+	display:flex;
+	container:fluid;
+	background-color:#D87E9C;
+	background-image: linear-gradient(white, #D87E9C);
+    height: 100%;
+}
+.row3{
+	margin:20px;
+	width:90%;
+	display:flex;
+	text-align:left;
+	container:fluid;
+	background-color:#D87E9C;
+	background-image: linear-gradient(#D87E9C, white);
+    height: 100%;
+}
+.row4{
+	margin:20px;
+	width:90%;
+	text-align:right;
+	display:flex;
+	container:fluid;
+	background-color:#D87E9C;
+	background-image: linear-gradient(white, #D87E9C);
+    height: 100%;
+}
+.maxwth {
+    max-width: 100%;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 30px 0;
+}
+.margin90 {
+    width: 90%;
+    margin: auto;
+}
+.justify {
+    text-align: justify;
+}
+.border-dpink{
+	border-color:#c84771;
+}
+.daycarePic{
+	margin:20px;
+	padding:2px;
+	float:left;
+	width: 100%;
+	height: 18vw;
+    max-width: 25vw;
+}
+.washPic{
+	margin:20px;
+	padding:2px;
+	float:right;
+	width: 100%;
+	height: 18vw;
+    max-width: 25vw;
+}
+.bedPic{
+	margin:20px;
+	padding:2px;
+	float:left;
+	width: 100%;
+	height: 18vw;
+    max-width: 25vw;
+}
+.trainingPic{
+	margin:20px;
+	padding:2px;
+	float:right;
+	width: 100%;
+	height: 18vw;
+    max-width: 25vw;
+}
+.service-item a i {
+    position: relative;
+    padding-left: 20px;
+    transition: .3s;
+	border-color:pink;
+}
+.service-item a:hover i {
+    padding-left: 50px;
+}
+.service-item a i::after {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 50%;
+    left: 10px;
+    margin-top: -1px;
+    transition: .3s;
+}
+.service-item a:hover i::after {
+    width: 50px;
+}
+a:hover{
+	color:black;
+	text-decoration:underline;
+}
+a:active{
+	color:pink;
+	text-decoration:underline;
+}
+/*Required for header*/
+.nav-link {
+    font-size:20px;
+}
+.lpink {
+    background-color: #d87e9c;
+}
+.dpink {
+    background-color: #c84771;
+	color: #c84771;
+}
+.sercol {
+	background-color: #dddddd;
+}
+.gradient-1 {
+    background-image: linear-gradient(#d0d0d0, white);
+    background-color: #d0d0d0;
+    height: 100%;
+}
+.text-dpink{
+	color: #c84771;
+}
+.navbar-toggler, .navbar-toggler-icon {
+	background-color: #333;    
+	margin: auto;
+}
