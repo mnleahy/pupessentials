@@ -62,7 +62,7 @@ a:active{
     font-size:20px;
 }
 .navbar-nav {
-	align-items: center;
+    align-items:center;
 }
 .lpink {
     background-color:#d87e9c;
@@ -89,4 +89,13 @@ a:active{
 .nav-link {
     font-size:20px;
     font-weight:600;
+}
+
+@media screen and (max-width: 767px) {
+	.nav.justify-content-end {
+		justify-content:center!important;
+	}
+	.ctr {
+		text-align:center;
+	}
 }
