@@ -60,6 +60,9 @@ a:active{color:pink;text-decoration:underline;}
     font-size:20px;
 	font-weight:600;
 }
+.navbar-nav {
+	align-items: center;
+}
 .lpink {
     background-color: #d87e9c;
 }
