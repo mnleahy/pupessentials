@@ -61,6 +61,9 @@ a:active{
 .nav-link {
     font-size:20px;
 }
+.navbar-nav {
+	align-items: center;
+}
 .lpink {
     background-color:#d87e9c;
 }
@@ -80,7 +83,7 @@ a:active{
 	color:#c84771;
 }
 .navbar-toggler, .navbar-toggler-icon {
-	background-color:#333;    
+	background-color:#333;   
 	margin:auto;
 }
 .nav-link {
