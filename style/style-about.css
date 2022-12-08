@@ -52,6 +52,7 @@ a:hover{color:black;text-decoration:underline;}
 a:active{color:pink;text-decoration:underline;}
 
 /*Required for header, CSS by Clodagh Byrne/Noelle Leahy*/
+
 .navbar-toggler, .navbar-toggler-icon {
     background-color: #333;
     margin: auto;
