@@ -155,13 +155,22 @@ a:active{
 	color: #c84771;
 }
 .navbar-toggler, .navbar-toggler-icon {
-	background-color: #333;    
-	margin: auto;
+	background-color:#333;    
+	margin:auto;
 }
 .navbar-nav {
-	align-items: center;
+	align-items:center;
 }
 .nav-link {
 	font-size: 20px;
 	font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+	.nav.justify-content-end {
+		justify-content:center!important;
+	}
+	.ctr {
+		text-align:center;
+	}
 }
