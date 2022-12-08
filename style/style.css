@@ -108,18 +108,18 @@ hr.solid {
 }
 
 @media screen and (max-width: 767px) {
-    .gradient-2 {
-        background-image: linear-gradient(white,#d0d0d0);
-        background-color: white;
-    }
-    .gradient-3 {
-	background-image: linear-gradient(#d0d0d0, white);
-    	background-color: #d0d0d0;
-    }
+	.gradient-2 {
+		background-image: linear-gradient(white,#d0d0d0);
+		background-color: white;
+	}
+	.gradient-3 {
+		background-image: linear-gradient(#d0d0d0, white);
+		background-color: #d0d0d0;
+	}
 	.nav.justify-content-end {
-	    justify-content:center;
+		justify-content:center;
 	}
 	.ctr {
-	    text-align:center;
+		text-align:center;
 	}
 }
