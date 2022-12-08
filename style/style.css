@@ -91,6 +91,11 @@ hr.solid {
     text-align: justify;
 }
 
+.cntr {
+	text-align: center;
+}
+
+
 @media screen and (max-width: 991px) {
     .gradient-3, .gradient-4, .gradient-7 {
         background-image: linear-gradient(white,#d0d0d0);
