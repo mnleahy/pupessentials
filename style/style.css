@@ -117,7 +117,7 @@ hr.solid {
 		background-color: #d0d0d0;
 	}
 	.nav.justify-content-end {
-		justify-content:center;
+		justify-content:center!important;
 	}
 	.ctr {
 		text-align:center;
