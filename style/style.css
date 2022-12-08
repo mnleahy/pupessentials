@@ -116,4 +116,10 @@ hr.solid {
 	background-image: linear-gradient(#d0d0d0, white);
     	background-color: #d0d0d0;
     }
+	.nav.justify-content-end {
+	    justify-content:center;
+	}
+	.ctr {
+	    text-align:center;
+	}
 }
