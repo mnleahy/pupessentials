@@ -81,3 +81,12 @@ a:active{color:pink;text-decoration:underline;}
 .text-dpink{
 	color: #c84771;
 }
+
+@media screen and (max-width: 767px) {
+	.nav.justify-content-end {
+		justify-content:center!important;
+	}
+	.ctr {
+		text-align:center;
+	}
+}
