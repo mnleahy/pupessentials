@@ -16,21 +16,21 @@ a:active{
 	color:pink; 
 	text-decoration:underline; 
 } 
-pdg{
+.pdg{
 	padding-top: 0.5rem!important;
 	padding-bottom: 0.5rem!important;
 }
-pdr{
+.pdr{
 	padding-right: 1rem!important;
 	padding-left: 1rem!important;
 }
-hdrctr{
+.hdrctr{
 	align-items:center;
 	justify-content:center;
 	flex-wrap:wrap;
 	display:flex;
 }
-imgcent{
+.imgcent{
 	max-width:100%,
 	height:auto;
 }
