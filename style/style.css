@@ -1,11 +1,11 @@
 /*CSS by Noelle Leahy*/
 
-h1, h2 {
+h1, h2{
     margin: auto;
     text-align: center;
     padding-bottom: 20px;
 }
-.h2fnt {
+.h2fnt{
 	font-size: 26px!important;
 }
 a:hover{ 
@@ -16,21 +16,21 @@ a:active{
 	color:pink; 
 	text-decoration:underline; 
 } 
-pdg{
-	padding-top: 0.5rem!important;
-	padding-bottom: 0.5rem!important;
+.pdg{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
-pdr{
-	padding-right: 1rem!important;
-	padding-left: 1rem!important;
+.pdr{
+	padding-right: 1rem;
+	padding-left: 1rem;
 }
-hdrctr{
+.hdrctr{
 	align-items:center;
 	justify-content:center;
 	flex-wrap:wrap;
 	display:flex;
 }
-imgcent{
+.imgcent{
 	max-width:100%,
 	height:auto;
 }
