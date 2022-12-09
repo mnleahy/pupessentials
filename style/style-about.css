@@ -44,7 +44,6 @@ h3{
 .ribbon{
 	background:#DDDDDD;
 	color:black;
-
 }
 a:link{color:black;text-decoration:none;}
 a:visited{color:black;text-decoration:none;}
@@ -53,41 +52,50 @@ a:active{color:pink;text-decoration:underline;}
 
 /*Required for header, CSS by Clodagh Byrne/Noelle Leahy*/
 
+.pdg{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.pdr{
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.hdrctr{
+	align-items:center;
+	justify-content:center;
+	flex-wrap:wrap;
+	display:flex;
+}
+.imgcent{
+	max-width:100%,
+	height:auto;
+}
 .navbar-toggler, .navbar-toggler-icon {
-    background-color: #333;
-    margin: auto;
+	background-color:#333;
+	margin:auto;
 }
 .nav-link {
-    font-size:20px;
+	font-size:20px;
 	font-weight:600;
 }
 .navbar-nav {
-	align-items: center;
+	align-items:center;
 }
 .lpink {
-    background-color: #d87e9c;
+	background-color: #d87e9c;
 }
 .dpink {
-    background-color: #c84771;
+	background-color: #c84771;
 	color: #c84771;
 }
 .sercol {
 	background-color: #dddddd;
 }
 .gradient-1 {
-    background-image: linear-gradient(#d0d0d0, white);
-    background-color: #d0d0d0;
-    height: 100%;
+	background-image: linear-gradient(#d0d0d0, white);
+	background-color: #d0d0d0;
+	height: 100%;
 }
 .text-dpink{
 	color: #c84771;
-}
-
-@media screen and (max-width: 767px) {
-	.nav.justify-content-end {
-		justify-content:center!important;
-	}
-	.ctr {
-		text-align:center;
-	}
 }
