@@ -2,7 +2,7 @@
 
 const headertemplate = document.createElement('template')
 headertemplate.innerHTML=`
-      <div id="header" class="row">
+      <div id="header">
         <!--logo header-->
         <div class="pdg pdr dpink">
             <div class="container-fluid"> 
