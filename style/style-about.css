@@ -70,28 +70,28 @@ a:active{color:pink;text-decoration:underline;}
 	max-width:100%;
 	height:auto;
 }
-.navbar-toggler, .navbar-toggler-icon {
+.navbar-nav{
+	align-items:center;
+}
+.navbar-toggler, .navbar-toggler-icon{
 	background-color:#333;
 	margin:auto;
 }
-.nav-link {
+.nav-link{
 	font-size:20px;
 	font-weight:600;
 }
-.navbar-nav {
-	align-items:center;
-}
-.lpink {
+.lpink{
 	background-color: #d87e9c;
 }
-.dpink {
+.dpink{
 	background-color: #c84771;
 	color: #c84771;
 }
-.sercol {
+.sercol{
 	background-color: #dddddd;
 }
-.gradient-1 {
+.gradient-1{
 	background-image: linear-gradient(#d0d0d0, white);
 	background-color: #d0d0d0;
 	height: 100%;
