@@ -44,14 +44,14 @@ h3{
 .ribbon{
 	background:#DDDDDD;
 	color:black;
+
 }
 a:link{color:black;text-decoration:none;}
 a:visited{color:black;text-decoration:none;}
 a:hover{color:black;text-decoration:underline;}
 a:active{color:pink;text-decoration:underline;}
 
-/*Required for header, CSS by Clodagh Byrne/Noelle Leahy*/
-
+/*Required for header*/
 .pdg{
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
@@ -73,28 +73,28 @@ a:active{color:pink;text-decoration:underline;}
 .navbar-nav{
 	align-items:center;
 }
-.navbar-toggler, .navbar-toggler-icon{
-	background-color:#333;
-	margin:auto;
+.navbar-toggler, .navbar-toggler-icon {
+    background-color: #333;
+    margin: auto;
 }
-.nav-link{
-	font-size:20px;
+.nav-link {
+    font-size:20px;
 	font-weight:600;
 }
-.lpink{
-	background-color: #d87e9c;
+.lpink {
+    background-color: #d87e9c;
 }
-.dpink{
-	background-color: #c84771;
+.dpink {
+    background-color: #c84771;
 	color: #c84771;
 }
-.sercol{
+.sercol {
 	background-color: #dddddd;
 }
-.gradient-1{
-	background-image: linear-gradient(#d0d0d0, white);
-	background-color: #d0d0d0;
-	height: 100%;
+.gradient-1 {
+    background-image: linear-gradient(#d0d0d0, white);
+    background-color: #d0d0d0;
+    height: 100%;
 }
 .text-dpink{
 	color: #c84771;
