@@ -2,15 +2,16 @@
 
 function alter() {
 	// variables and response message
- 	var name = document.getElementById("myName").value;
+	var name = document.getElementById("myName").value;
 	var email = document.getElementById("myEmail").value;
-	if(name!="" && email!=""){
+	var message = document.getElementById("message").value;
+	if(name!="" && email!="" && message!=""){
 		document.getElementById("name").innerHTML = name+", thank you for your details. We will be in touch via "+email+" shortly";
+		hide();
 	}
 	else{
 		document.getElementById("name").innerHTML ="Please fill in all fields of the form before submitting";
 	}
-	hide();
 }
 	// hide the form after submission
   function hide() {
