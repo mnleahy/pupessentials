@@ -40,6 +40,9 @@ a:active{
 	text-align: center; 
 	font-weight:bold; 
 	width: 80%;
+	--bs-btn-bg: #C84771;
+	--bs-btn-border-color: #C84771;
+	--bs-btn-hover-border-color: #C84771;
 } 
 .btn-primary:hover{ 
 	background-color: #D87E9C; 
