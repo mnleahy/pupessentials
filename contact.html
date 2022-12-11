@@ -36,9 +36,9 @@
 				</div>
 				</br>
 <!--contact form-->
-				<div class="row card row2">
-					<div class="card-block">
-						<div class="border1">
+				<div class="row container1">
+					<div class="row2">
+						<div class="col-lg-12 border1">
 							<h3 class="text-uppercase">Contact form</h3>
 								<form action="" class="reveal-content" onsubmit="return false" id="hideform">
 									<div class="form-group">
@@ -46,7 +46,7 @@
 									</div>
 									</br>
 									<div class="form-group">
-										<input type="email" class="form-control" id="myEmail" placeholder="Email">
+										<input type="text" class="form-control" placeholder="Email" name="email" id="email" onBlur="email_validation();"/><span id="email_err"></span>
 									</div>
 									</br>
 									<div class="form-group">
@@ -54,11 +54,16 @@
 									</div>
 									</br>
 									<div class="form-group">
-										<input type="submit" class=" btn btn-primary" onclick="alter()"/>
+										<input type="submit" onclick="alter()" name="submit" value="Submit" class=" btn btn-primary" />
+									</div>
+									<div>
+										<strong>
+											<span id="name"></span><span id="email"></span>
+										</strong>
 									</div>
 								</form>
 						</div>
-						<span id="name"></span><span id="email"></span>
+						
 					</div>
 				</div>
 			</div>
