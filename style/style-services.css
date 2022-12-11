@@ -11,7 +11,7 @@
 	background-color: #D87E9C;
 	border-color:#C84771;
 	color: white;
-	text-decoration:bold;
+	font-weight:bold;
 }
 .border1{
 	margin:5px;
@@ -24,7 +24,7 @@
 	display:flex;
 	background-color:#D87E9C;
 	background-image: linear-gradient(#D87E9C, white);
-	height: 100%;
+    height:100%;
 }
 .row2{
 	margin:10px;
@@ -33,7 +33,7 @@
 	display:flex;
 	background-color:#D87E9C;
 	background-image: linear-gradient(white, #D87E9C);
-	height: 100%;
+    height:100%;
 }
 .row3{
 	margin:10px;
@@ -43,7 +43,7 @@
 	text-align:left;
 	background-color:#D87E9C;
 	background-image: linear-gradient(#D87E9C, white);
-	height: 100%;
+    height:100%;
 }
 .row4{
 	margin:10px;
@@ -52,21 +52,21 @@
 	display:flex;
 	background-color:#D87E9C;
 	background-image: linear-gradient(white, #D87E9C);
-	height: 100%;
+    height:100%;
 }
 .maxwth{
-	max-width: 90%;
+    max-width:90%;
 }
-hr.solid{
-	border-top: 3px solid #bbb;
-	margin: 30px 0;
+hr.solid {
+    border-top:3px solid #bbb;
+    margin:30px 0;
 }
-.margin90{
-	width: 90%;
-	margin: auto;
+.margin90 {
+    width:90%;
+    margin:auto;
 }
-.justify{
-	text-align:justify;
+.justify {
+    text-align: justify;
 }
 .border-dpink{
 	border-color:#c84771;
@@ -75,54 +75,54 @@ hr.solid{
 	margin:20px;
 	padding:2px;
 	float:left;
-	width: 100%;
-	height: 18vw;
-	max-width: 25vw;
+	width:100%;
+	height:18vw;
+    max-width:25vw;
 }
 .washPic{
 	margin:20px;
 	padding:2px;
 	float:right;
-	width: 100%;
-	height: 18vw;
-	max-width: 25vw;
+	width:100%;
+	height:18vw;
+    max-width:25vw;
 }
 .bedPic{
 	margin:20px;
 	padding:2px;
 	float:left;
-	width: 100%;
-	height: 18vw;
-	max-width: 25vw;
+	width:100%;
+	height:18vw;
+    max-width:25vw;
 }
 .trainingPic{
 	margin:20px;
 	padding:2px;
 	float:right;
-	width: 100%;
-	height: 18vw;
-	max-width: 25vw;
+	width:100%;
+	height:18vw;
+    max-width:25vw;
 }
-.service-item a i{
-	position: relative;
-	padding-left: 20px;
-	transition: .3s;
+.service-item a i {
+    position:relative;
+    padding-left:20px;
+    transition:.3s;
 	border-color:pink;
 }
-.service-item a:hover i{
-	padding-left: 50px;
+.service-item a:hover i {
+    padding-left:50px;
 }
-.service-item a i::after{
-	position: absolute;
-	width: 20px;
-	height: 2px;
-	top: 50%;
-	left: 10px;
-	margin-top: -1px;
-	transition: .3s;
+.service-item a i::after {
+    position:absolute;
+    width:20px;
+    height:2px;
+    top:50%;
+    left:10px;
+    margin-top:-1px;
+    transition:.3s;
 }
-.service-item a:hover i::after{
-	width: 50px;
+.service-item a:hover i::after {
+    width:50px;
 }
 a:hover{
 	color:black;
