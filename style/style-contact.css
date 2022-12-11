@@ -31,7 +31,7 @@
 	margin:20px;
 	width:90%;
 	text-align:left;
-	display:flex;
+	display:block;
 	container:fluid;
 	background-color:#D87E9C;
 	background-image: linear-gradient(white, #D87E9C);
