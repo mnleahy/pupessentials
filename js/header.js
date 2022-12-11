@@ -1,4 +1,4 @@
-// Javascript by Noelle Leahy
+// Javascript and HTML by Noelle Leahy
 
 const headertemplate = document.createElement('template')
 headertemplate.innerHTML=`
