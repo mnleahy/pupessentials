@@ -13,11 +13,12 @@
 	text-decoration:bold;
 }
 .border1{
-	margin:20px;
+	margin:auto;
 	border-color:#D87E9C;
+	padding: 20px;
 }
 .row1{
-	margin:20px;
+	margin:auto;
 	border:10px;
 	width:90%;
 	text-align:left;
@@ -28,7 +29,7 @@
   	height: 100%;
 }
 .row2{
-	margin:20px;
+	margin:auto;
 	width:90%;
 	text-align:left;
 	display:block;
@@ -38,11 +39,11 @@
     	height: 100%;
 }
 .container{
-	margin:20px;
+	margin:auto;
 	border-color:#D87E9C;
 }
 .container1{
-	margin:20px;
+	margin:auto;
 	border-color:#D87E9C;
 }
 .container2{
