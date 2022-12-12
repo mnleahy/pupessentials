@@ -31,3 +31,8 @@ function email_validation(){
 		document.getElementById('email_err').style.color = "#19B438";
 	}
 }
+
+// hide the form after submission
+function hide() {
+	document.getElementById("hideform").style.display="none";
+}
