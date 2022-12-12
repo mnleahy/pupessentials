@@ -45,6 +45,9 @@ a:active{
 	width: 80%;
 	border-color: #C84771;
 	padding: 0.375rem 0.75rem!important;
+	border-radius:0.375rem;
+	display: inline-block;
+	text-decoration:none;
 }
 .pebtn:hover{
 	border-color:#C84771;
